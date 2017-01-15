@@ -8,7 +8,7 @@ import org.springframework.format.annotation.DateTimeFormat.ISO.DATE_TIME
 import org.springframework.web.bind.annotation.*
 import java.time.LocalDateTime
 
-@Controller
+@RestController
 class MainController
 @Autowired constructor(
         val messageRepository: MessageRepository
